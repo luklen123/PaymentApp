@@ -27,8 +27,38 @@ The application allows recording payment information for patients, including:
 
 ## Usage
 1. Start the application.
-2. Enter patient data and payment details.
-3. Save the data to the database.
-4. Sort the payment history by any condition.
-5. Save database to file.
+   
+![Example Image](Screenshots/PaymentAppstart.jpg)
 
+
+2. Enter patient data and payment details.
+
+ ![Example Image](Screenshots/PaymentAppdatainsertion.jpg) 
+
+ 
+3. Save the data to the database.
+
+ ![Example Image](Screenshots/PaymentAppafterdatainsertion.jpg) 
+
+If you enter the wrong type of data or leave one of the required fields empty, an error will occur, and the data will not be saved.
+
+ ![Example Image](Screenshots/PaymentAppinsertionerror.jpg) 
+
+If you made a mistake while entering the data, you can edit the entries (during editing, the entered data will also be validated for correctness).
+
+ ![Example Image](Screenshots/PaymentAppchangehour.jpg) 
+
+Records are sorted by appointment hour, so the position of the record may change if you edit the time.
+
+ ![Example Image](Screenshots/PaymentAppafterchangehour.jpg) 
+
+4. Save database to file. If the saving is successful, you will receive a notification.
+
+ ![Example Image](Screenshots/PaymentAppsavetofile.jpg) 
+
+Two files will be created: a TXT file and an Excel file. Each of them will be named "Zestawienie {today's_date}"
+
+ ![Example Image](Screenshots/PaymentAppfile.jpg) 
+ ![Example Image](Screenshots/PaymentApptxtfile.jpg) 
+
+ 
