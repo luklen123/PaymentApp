@@ -1,2 +1,2 @@
 # PaymentApp
-Is my own projcet to digitalize process of saving payments
+Is my own projcet to digitalize process of saving payments deatils
