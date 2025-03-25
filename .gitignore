@@ -1,0 +1,11 @@
+# Ignorowanie katalogów kompilacji
+/target/
+/out/
+
+# Ignorowanie plików konfiguracyjnych IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Ignorowanie plików Maven
+.mvn/
